@@ -9,9 +9,18 @@ const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
 
+const PORT = process.env.PORT || "5000";
+
 dotenv.config();
+
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
+
+
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 mongoose
   .connect(process.env.MONGO_URL, {
@@ -42,6 +51,6 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-app.listen("5000", () => {
-  console.log("Backend is running.");
+app.listen(PORT, () => {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
