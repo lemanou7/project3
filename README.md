@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Project 3 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Subject: Mern Blog Post
 
-## Available Scripts
+## Application Requirements
 
-In the project directory, you can run:
+* Must use ReactJS in some way
 
-### `yarn start`
+* Must use a Node and Express Web Server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Must be backed by a MySQL or MongoDB database with a Sequelize or Mongoose ORM
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Must have both GET and POST routes for retrieving and adding new data
 
-### `yarn test`
+* Must deploy this application using Heroku with data. Follow our guide on [deploying MERN applications to Heroku](../04-Important/MERNHerokuDeploy.md) to do so.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Must utilize at least 2 libraries, packages, or technologies that we haven't discussed
 
-### `yarn build`
+* Must allow for or involve the authentication of users in some way
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Must have a polished front end/UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Must have a folder structure that meets the MVC paradigm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Must meet good quality coding standards (indentation, scoping, naming)
 
-### `yarn eject`
+* Must protect API keys in Node with environment variables
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### See Website
+[Click Here](https://project3blogpost.herokuapp.com/) to see application video.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is some useful steps, you must meet to run this page correctly 
 
-### Code Splitting
+### Prerequisites
+You can use any code editor of your choise, i use Vs Code because it is open source and it understand git and do syntax highlighting very nicely.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Go to
+  [Click Here](https://code.visualstudio.com/download) to download Vs Code to your computer.
+  
+1. Clone the repo
+   ```sh
+   git clone  https://github.com/lemanou7/project3.git
+   ```
+2. Get a linux shell emulator like Git bash or Powershell then:
+    ```sh
+    cd to where your repository folder is located in your computer
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Run the index.js file by entering this command if using Vs Code
+   ```sh
+  npm start
+   ```
+   
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### See Application here
+<!-- 
+1. Look the App demonstration  -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- ![App](Assets/test.gif) -->
 
-### Deployment
+<!-- CONTACT -->
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Drissa Bagate (<span style="color:#5ddcf0">**Django, Javascript Full Stack Developer**</span>) [GitHub](https://github.com/lemanou7) - lemanou7@yahoo.fr
 
-### `yarn build` fails to minify
+Other Project link: [My Blog Post Python-Django Implemation](http://grandbuzz.herokuapp.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
