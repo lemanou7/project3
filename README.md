@@ -59,15 +59,6 @@ You can use any code editor of your choise, i use Vs Code because it is open sou
    ```
    
 
-
-
-### See Application here
-<!-- 
-1. Look the App demonstration  -->
-
-<!-- ![App](Assets/test.gif) -->
-
-<!-- CONTACT -->
 ## Contact
 
 Drissa Bagate (<span style="color:#5ddcf0">**Django, Javascript Full Stack Developer**</span>) [GitHub](https://github.com/lemanou7) - lemanou7@yahoo.fr
