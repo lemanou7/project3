@@ -55,13 +55,14 @@ You can use any code editor of your choise, i use Vs Code because it is open sou
 
 3. Run the index.js file by entering this command if using Vs Code
    ```sh
-  npm start
+    npm start
    ```
    
 
 ## Contact
 
 Drissa Bagate (<span style="color:#5ddcf0">**Django, Javascript Full Stack Developer**</span>) [GitHub](https://github.com/lemanou7) - lemanou7@yahoo.fr
+
 Jennifer Clayton (<span style="color:#5ddcf0">**Javascript Full Stack Developer**</span>) [GitHub](https://github.com/Jennylc7) - stacked777@gmail.com
 
 
