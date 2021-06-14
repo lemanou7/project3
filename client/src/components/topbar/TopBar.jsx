@@ -37,7 +37,7 @@ export default function TopBar() {
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">
-            {user && "EDIT"}
+            {user && "ADD POST"}
             </Link>
           </li>
           <li className="topListItem" onClick={handleLogout}>
