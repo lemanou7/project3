@@ -1,6 +1,13 @@
 # Project 3 
 
-## Subject: Mern Blog Post
+## Subject: A Simple MERN Blog
+
+## Description
+This is a simple Blog created with React.  This User is greeted by a Main Page that links to a Registration page and then a Login page.  This Blog allows the User to post a Profile Picture, a Blog Title and a Blog Post.  The user can browse other Blog entries posted by other Users.  The User can Logout and Log back in.
+![image](https://user-images.githubusercontent.com/69978605/121970365-a4646080-cd33-11eb-8805-585f75eac29f.png)
+
+## Usage
+Our App will operate on all browsers.
 
 ## Application Requirements
 
