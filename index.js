@@ -17,11 +17,6 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
-
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -50,6 +45,12 @@ app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
+
+
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.listen(PORT, () => {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);

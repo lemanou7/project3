@@ -16,14 +16,20 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle">POPULAR POSTS</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
-          alt=""
+          src="https://i.ibb.co/f9Wx0sn/denver-wallpaper-preview.jpg"
+          alt="Denverimage"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+        officially the City and County of Denver, is the capital and most populous city of the U.S. State of Colorado. 
+        It is located in the South Platte River Valley on the western edge of the High Plains just east of the Front Range of the Rocky Mountains.
+         With an estimated population of 735,538 in 2020, Denver is the 19th-most populous city in the United States, 
+         the fifth-most populous state capital, and the most populous city located in the Mountain states.
+          The metropolitan area surrounding Denver represents a majority of the population and economic activity in the Front Range region, 
+          the area where an estimated 85% of Colorado's population lives. 
+          The Denver downtown district is immediately east of the confluence of Cherry Creek and the South Platte River, 
+          approximately 12 mi (19 km) east of the foothills of the Rocky Mountains. Denver is named
         </p>
       </div>
       <div className="sidebarItem">
